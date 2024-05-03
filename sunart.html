@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNART</title>
+    <style>
+        body {
+          
+            margin: 0;
+            padding: 0;
+           
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background: linear-gradient(-45deg, #ee7752, #563ce7, #d57323, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+}
+
+        @keyframes gradientBG {
+	    0% {
+		background-position: 0% 50%;
+	    }
+	    50% {
+		background-position: 100% 50%;
+	    }
+	    100% {
+		background-position: 0% 50%;
+	    }
+  }
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background-color: #fff;
+            pointer-events: none; 
+        }
+     
+        header {
+            background-size: cover;
+           font-family: 'Brush Script MT', cursive;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-container {
+           
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgba(red, green, blue, alpha); 
+        }
+
+        h1 {
+            font-size: 150px;
+            font-style: inherit;
+            margin: 0;
+        }
+
+        .options {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .options a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px 40px;
+            border: 2px solid #4d3c6d3f;
+            border-radius: 15px; 
+            transition: all 0.3s ease;
+        }
+
+        .options a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 50px;
+            padding: 0px 52px;
+        }
+
+        .box {
+            width: calc(45% - 30px); 
+            height: calc(45%-20px);
+            margin-bottom: 40px;
+            padding: 32px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            box-sizing: initial;
+        }
+
+        .box h2 {
+            margin-top: 0;
+        }
+
+        .box p {
+            max-height: 100px;
+            overflow: hidden;
+        }
+
+        .box .read-more {
+            color: blue;
+            cursor: pointer;
+        }
+        .add-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color:#9fa8da;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            color: black;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .add-button:hover {
+            background-color:blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>SUNART</h1>
+        </div>
+       
+       
+        <br>
+        <br>
+    </header>
+    <div class="options">
+        <a href="all.html" target="_blank"> ANA SAYFA</a>
+        <a href="yazi.html" target="_blank">YAZI</a>
+        <a href="siir.html" target="_blank">ŞİİR</a>
+        <a href="resim.html" target="_blank">RESİM</a>
+        <a href="fal.html" target="_blank">HÂL</a>
+    </div>
+<br>
+<br>
+<br>
+   
+    <div class="container">
+       
+        <div class="box">
+            <h2>Kutu 1 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more">Devamını Oku</a> 
+        </div>
+
+        <div class="box">
+            <h2>Kutu 2 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more">Devamını Oku</a> 
+        </div>
+
+        <div class="box">
+            <h2>Kutu 3 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more">Devamını Oku</a> 
+        </div>
+
+     
+        <div class="box">
+            <h2>Kutu 4 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+           <a href="devaminioku .html" class="read-more">Devamını Oku</a> 
+        </div>
+
+        <div class="box">
+            <h2>Kutu 5 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+
+        <div class="box">
+            <h2>Kutu 6 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+
+        <!-- Sayfa 3 -->
+        <div class="box">
+            <h2>Kutu 7 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+
+        <div class="box">
+            <h2>Kutu 8 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+
+        <div class="box">
+            <h2>Kutu 9 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+
+        <!-- Sayfa 4 -->
+        <div class="box">
+            <h2>Kutu 10 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+
+        <div class="box">
+            <h2>Kutu 11 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+
+        <div class="box">
+            <h2>Kutu 12 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+        <div class="box">
+            <h2>Kutu 12 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+        <div class="box">
+            <h2>Kutu 12 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+        </div>
+        <div class="box">
+            <h2>Kutu 12 Başlığı</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci eget neque sollicitudin varius. Vivamus non neque.</p>
+            <a href="devaminioku.html" class="read-more"> Devamını Oku</a>
+            <a href="ekle.html" class="add-button">+</a>
+            
+        </div>
+        
+        
+    </div>
+    <script>
+        function randomPosition(){
+            return{
+                x:Math.random()*window.innerWidth,
+                y:-10
+            };
+
+        }
+        function createStar() {
+            const star = document.createElement('div');
+            star.classList.add('star');
+            const position = randomPosition();
+            star.style.left = `${position.x}px`;
+            star.style.top = `${position.y}px`;
+            document.body.appendChild(star);
+            const speed = Math.random() * 5 + 1;
+            const animation = setInterval(() => {
+                position.y += speed;
+                star.style.top = `${position.y}px`;
+                if (position.y > window.innerHeight) {
+                    clearInterval(animation);
+                    star.remove();
+                }
+            }, 50); 
+        }
+        setInterval(createStar, 300);
+
+    </script>
+    
